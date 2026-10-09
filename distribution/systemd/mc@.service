@@ -1,0 +1,40 @@
+[Unit]
+Description=Minecraft server %i
+Documentation=https://github.com/minodevss/mcctl
+After=network-online.target
+Wants=network-online.target
+StartLimitIntervalSec=600
+StartLimitBurst=5
+
+[Service]
+Type=exec
+User=mc-%i
+Group=mc-%i
+UMask=0007
+ExecStart=/usr/local/bin/mcctl run %i
+WorkingDirectory=/var/lib/mcctl/servers/%i
+RuntimeDirectory=mcctl/servers/%i
+Environment=LANG=C.UTF-8 HOME=/var/lib/mcctl/servers/%i
+Restart=on-failure
+RestartSec=10
+TimeoutStopSec=180
+SuccessExitStatus=143
+LogRateLimitIntervalSec=0
+LimitNOFILE=65536
+CapabilityBoundingSet=
+NoNewPrivileges=yes
+ProtectSystem=strict
+ReadWritePaths=/var/lib/mcctl/servers/%i
+ProtectHome=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectKernelLogs=yes
+ProtectControlGroups=yes
+RestrictNamespaces=yes
+RestrictSUIDSGID=yes
+LockPersonality=yes
+
+[Install]
+WantedBy=multi-user.target

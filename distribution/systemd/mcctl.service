@@ -1,0 +1,35 @@
+[Unit]
+Description=mcctl router and DNS
+Documentation=https://github.com/minodevss/mcctl
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=exec
+User=mcctl
+Group=mcctl
+ExecStart=/usr/local/bin/mcctl serve
+Restart=always
+RestartSec=1
+LoadCredential=dns-token:/etc/mcctl/dns-token
+RuntimeDirectory=mcctl/serve
+LimitNOFILE=65536
+CapabilityBoundingSet=
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectKernelLogs=yes
+ProtectControlGroups=yes
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+RestrictNamespaces=yes
+RestrictSUIDSGID=yes
+LockPersonality=yes
+MemoryDenyWriteExecute=yes
+SystemCallArchitectures=native
+
+[Install]
+WantedBy=multi-user.target
