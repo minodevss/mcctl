@@ -456,7 +456,7 @@ checksum = "f9f8bd3e56ce4dfc153cf470fffbfa98c7620958b312ca5c3a4b8d5181fd13c6"
 
 [[package]]
 name = "mcctl"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "clap",
  "mcctl-dns",
@@ -476,7 +476,7 @@ dependencies = [
 
 [[package]]
 name = "mcctl-dns"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "serde",
  "serde_json",
@@ -486,7 +486,7 @@ dependencies = [
 
 [[package]]
 name = "mcctl-platform"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "flate2",
  "serde",
@@ -502,11 +502,11 @@ dependencies = [
 
 [[package]]
 name = "mcctl-protocol"
-version = "0.1.0"
+version = "0.1.1"
 
 [[package]]
 name = "mcctl-router"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "mcctl-protocol",
  "thiserror",

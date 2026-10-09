@@ -5,6 +5,12 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-10-09
+
+### Fixed
+- Servers get 600 seconds to save and stop before systemd kills them, up from 180.
+- Server logs are tagged `mc@<server>` in the journal instead of `mcctl`.
+
 ## [0.1.0] - 2026-10-09
 
 ### Added
@@ -16,5 +22,6 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 - `update` for server software and for mcctl itself, verified with minisign.
 - `doctor` for ports, DNS and reachability checks.
 
-[Unreleased]: https://github.com/minodevss/mcctl/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/minodevss/mcctl/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/minodevss/mcctl/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/minodevss/mcctl/releases/tag/v0.1.0
