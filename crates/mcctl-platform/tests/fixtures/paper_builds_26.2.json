@@ -1,0 +1,156 @@
+[
+  {
+    "id": 57,
+    "time": "2026-07-12T12:43:05Z",
+    "channel": "ALPHA",
+    "commits": [
+      {
+        "sha": "e04b266661d48f38b6152b5253fbeda17d452f5d",
+        "time": "2026-07-12T12:42:17Z",
+        "message": "Add AsyncServerDataFixerRemoveBlockEntityEvent (#14033)"
+      }
+    ],
+    "downloads": {
+      "server:default": {
+        "name": "paper-26.2-57.jar",
+        "checksums": {
+          "sha256": "7bba94a87dee0479818692fbdee28e2cd10f24fe7e2426cdfd7e0ad94ab774c0"
+        },
+        "size": 61742720,
+        "url": "https://fill-data.papermc.io/v1/objects/7bba94a87dee0479818692fbdee28e2cd10f24fe7e2426cdfd7e0ad94ab774c0/paper-26.2-57.jar"
+      }
+    }
+  },
+  {
+    "id": 58,
+    "time": "2026-07-12T13:42:35Z",
+    "channel": "ALPHA",
+    "commits": [
+      {
+        "sha": "aaa6591bebb502ac07f04455f4269085f0cf5794",
+        "time": "2026-07-12T13:41:43Z",
+        "message": "Do not delay when running minor file fix (#14054)"
+      }
+    ],
+    "downloads": {
+      "server:default": {
+        "name": "paper-26.2-58.jar",
+        "checksums": {
+          "sha256": "c04d23d61ed3d6fc2873cad3817c535f8913fcf4d4869691091a28b9f99b3421"
+        },
+        "size": 61742555,
+        "url": "https://fill-data.papermc.io/v1/objects/c04d23d61ed3d6fc2873cad3817c535f8913fcf4d4869691091a28b9f99b3421/paper-26.2-58.jar"
+      }
+    }
+  },
+  {
+    "id": 81,
+    "time": "2026-07-26T12:52:14Z",
+    "channel": "BETA",
+    "commits": [
+      {
+        "sha": "57d665efcceea186aa8666a4d75953be6fccb258",
+        "time": "2026-07-26T12:51:17Z",
+        "message": "Move version and console history to .paper dir (#14104)"
+      }
+    ],
+    "downloads": {
+      "server:default": {
+        "name": "paper-26.2-81.jar",
+        "checksums": {
+          "sha256": "700552850036919f6ab95a9ecdd766386716541e366c438f401331c01cb27fc8"
+        },
+        "size": 61753211,
+        "url": "https://fill-data.papermc.io/v1/objects/700552850036919f6ab95a9ecdd766386716541e366c438f401331c01cb27fc8/paper-26.2-81.jar"
+      }
+    }
+  },
+  {
+    "id": 82,
+    "time": "2026-07-26T13:34:22Z",
+    "channel": "BETA",
+    "commits": [
+      {
+        "sha": "05277d49495b2d054e8273f84b058397bd1dce4c",
+        "time": "2026-07-26T13:33:34Z",
+        "message": "Expose relative parameters to setRotation (#13901)"
+      }
+    ],
+    "downloads": {
+      "server:default": {
+        "name": "paper-26.2-82.jar",
+        "checksums": {
+          "sha256": "3a21273692b2659696d1a22e394612b3ff732e231a10b1466975824d3e29dad8"
+        },
+        "size": 61754996,
+        "url": "https://fill-data.papermc.io/v1/objects/3a21273692b2659696d1a22e394612b3ff732e231a10b1466975824d3e29dad8/paper-26.2-82.jar"
+      }
+    }
+  },
+  {
+    "id": 130,
+    "time": "2026-10-05T17:27:56Z",
+    "channel": "STABLE",
+    "commits": [
+      {
+        "sha": "a3d63e8d8105c3199265fc1a4f84573cf4e9cb15",
+        "time": "2026-10-05T17:25:19Z",
+        "message": "Fix bundle contents corruption with item obfuscation and shelves (#14353)\n\nCo-authored-by: Bjarne Koll <git@lynxplay.dev>"
+      }
+    ],
+    "downloads": {
+      "server:default": {
+        "name": "paper-26.2-130.jar",
+        "checksums": {
+          "sha256": "715cd6633db27b2c05ce6efd2d477330ebae8a4f668cf0459fcaf434c4720fba"
+        },
+        "size": 64522772,
+        "url": "https://fill-data.papermc.io/v1/objects/715cd6633db27b2c05ce6efd2d477330ebae8a4f668cf0459fcaf434c4720fba/paper-26.2-130.jar"
+      }
+    }
+  },
+  {
+    "id": 131,
+    "time": "2026-10-06T18:21:22Z",
+    "channel": "STABLE",
+    "commits": [
+      {
+        "sha": "e8c8a68254f64343f54d768b5df805c8eef88c5b",
+        "time": "2026-10-06T18:19:30Z",
+        "message": "Make test block codec conditional\n"
+      }
+    ],
+    "downloads": {
+      "server:default": {
+        "name": "paper-26.2-131.jar",
+        "checksums": {
+          "sha256": "3015d75dea685694fd19f39c0ade1cf353de1d0f7fda153d86f8059f58054798"
+        },
+        "size": 64524759,
+        "url": "https://fill-data.papermc.io/v1/objects/3015d75dea685694fd19f39c0ade1cf353de1d0f7fda153d86f8059f58054798/paper-26.2-131.jar"
+      }
+    }
+  },
+  {
+    "id": 132,
+    "time": "2026-10-06T18:55:54Z",
+    "channel": "STABLE",
+    "commits": [
+      {
+        "sha": "19ebc4a49b725b1ea813f95ac559a2ed3931ee4c",
+        "time": "2026-10-06T18:14:10Z",
+        "message": "Prevent shearing villager display items (#14356)\n\nCo-authored-by: Jason Penilla <11360596+jpenilla@users.noreply.github.com>"
+      }
+    ],
+    "downloads": {
+      "server:default": {
+        "name": "paper-26.2-132.jar",
+        "checksums": {
+          "sha256": "5ab560a769c1ab413cb7f637dd0dc697974571f2db0a667cfbac511422e51b26"
+        },
+        "size": 64524844,
+        "url": "https://fill-data.papermc.io/v1/objects/5ab560a769c1ab413cb7f637dd0dc697974571f2db0a667cfbac511422e51b26/paper-26.2-132.jar"
+      }
+    }
+  }
+]

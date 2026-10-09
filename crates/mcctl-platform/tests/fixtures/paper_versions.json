@@ -1,0 +1,125 @@
+{
+  "versions": [
+    {
+      "version": {
+        "id": "26.3",
+        "support": {
+          "status": "SUPPORTED"
+        }
+      },
+      "builds": [
+        164,
+        165,
+        166
+      ]
+    },
+    {
+      "version": {
+        "id": "26.3-rc-3",
+        "support": {
+          "status": "UNSUPPORTED",
+          "end": "2026-09-15"
+        }
+      },
+      "builds": [
+        1
+      ]
+    },
+    {
+      "version": {
+        "id": "26.2",
+        "support": {
+          "status": "SUPPORTED"
+        }
+      },
+      "builds": [
+        130,
+        131,
+        132
+      ]
+    },
+    {
+      "version": {
+        "id": "26.2-rc-2",
+        "support": {
+          "status": "UNSUPPORTED",
+          "end": "2026-06-16"
+        }
+      },
+      "builds": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "version": {
+        "id": "26.1.2",
+        "support": {
+          "status": "UNSUPPORTED",
+          "end": "2026-07-26"
+        }
+      },
+      "builds": [
+        72,
+        73,
+        74
+      ]
+    },
+    {
+      "version": {
+        "id": "26.1.1",
+        "support": {
+          "status": "UNSUPPORTED",
+          "end": "2026-04-11"
+        }
+      },
+      "builds": [
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "version": {
+        "id": "1.21.11",
+        "support": {
+          "status": "UNSUPPORTED",
+          "end": "2026-06-15"
+        }
+      },
+      "builds": [
+        130,
+        131,
+        132
+      ]
+    },
+    {
+      "version": {
+        "id": "1.21.11-rc3",
+        "support": {
+          "status": "UNSUPPORTED",
+          "end": "2025-12-09"
+        }
+      },
+      "builds": [
+        30,
+        31
+      ]
+    },
+    {
+      "version": {
+        "id": "1.21.11-rc2",
+        "support": {
+          "status": "UNSUPPORTED",
+          "end": "2025-12-08"
+        }
+      },
+      "builds": [
+        27,
+        26,
+        29
+      ]
+    }
+  ]
+}

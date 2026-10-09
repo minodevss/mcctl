@@ -1,0 +1,68 @@
+[
+  {
+    "id": 166,
+    "time": "2026-10-09T00:54:07Z",
+    "channel": "BETA",
+    "commits": [
+      {
+        "sha": "cc7b98af634be07c9b3581306c7b6af33caa3ff2",
+        "time": "2026-10-09T00:53:51Z",
+        "message": "Support Batch Recipe (Un)Registration Methods and Improvements (#13945)\n\nCo-authored-by: Doc <git@mrdoc.dev>"
+      }
+    ],
+    "downloads": {
+      "server:default": {
+        "name": "paper-26.3-166.jar",
+        "checksums": {
+          "sha256": "dbaae37e10e30e44ad1ff65cf00992240c3e79d33e150f9c4e833ed0338e8ccd"
+        },
+        "size": 54212025,
+        "url": "https://fill-data.papermc.io/v1/objects/dbaae37e10e30e44ad1ff65cf00992240c3e79d33e150f9c4e833ed0338e8ccd/paper-26.3-166.jar"
+      }
+    }
+  },
+  {
+    "id": 165,
+    "time": "2026-10-09T00:17:26Z",
+    "channel": "BETA",
+    "commits": [
+      {
+        "sha": "e63aca43379de12f7419ccc3ca2497de87d861a9",
+        "time": "2026-10-09T00:17:11Z",
+        "message": "Add Entity#getWeapon (#13949)\n\nCo-authored-by: Doc <git@mrdoc.dev>"
+      }
+    ],
+    "downloads": {
+      "server:default": {
+        "name": "paper-26.3-165.jar",
+        "checksums": {
+          "sha256": "452e234a008a6d70cca1339f3d29bd456ee6fdac8a94d3712bcf59124df71abe"
+        },
+        "size": 54212174,
+        "url": "https://fill-data.papermc.io/v1/objects/452e234a008a6d70cca1339f3d29bd456ee6fdac8a94d3712bcf59124df71abe/paper-26.3-165.jar"
+      }
+    }
+  },
+  {
+    "id": 164,
+    "time": "2026-10-08T20:55:51Z",
+    "channel": "BETA",
+    "commits": [
+      {
+        "sha": "16db242251ae413fc21e978abbc881ca55610bed",
+        "time": "2026-10-08T20:55:30Z",
+        "message": "Add PersistentDataKey API (#14337)"
+      }
+    ],
+    "downloads": {
+      "server:default": {
+        "name": "paper-26.3-164.jar",
+        "checksums": {
+          "sha256": "3c0278c79e51a8c30be6d011a56c9896329f7fa036c4b2afc25c419102347c30"
+        },
+        "size": 54212502,
+        "url": "https://fill-data.papermc.io/v1/objects/3c0278c79e51a8c30be6d011a56c9896329f7fa036c4b2afc25c419102347c30/paper-26.3-164.jar"
+      }
+    }
+  }
+]
