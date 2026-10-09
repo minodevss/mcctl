@@ -1,0 +1,11 @@
+{
+  "status": "ERROR",
+  "code": "INVALID_API_KEYS_001",
+  "message": "Invalid API key.",
+  "next_action": {
+    "type": "authenticate",
+    "hint": "Check the API key and secret at https://porkbun.com/account/api.",
+    "retryable": false
+  },
+  "requestId": "01929d6e-6b1a-7c3e-9a51-0f4f3a2b1c0f"
+}

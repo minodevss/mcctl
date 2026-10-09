@@ -1,0 +1,31 @@
+{
+  "status": "SUCCESS",
+  "count": 2,
+  "domains": [
+    {
+      "domain": "example.com",
+      "status": "ACTIVE",
+      "tld": "com",
+      "createDate": "2021-01-15 10:00:00",
+      "expireDate": "2027-01-15 10:00:00",
+      "securityLock": 1,
+      "whoisPrivacy": 1,
+      "autoRenew": 1,
+      "apiAccess": 1,
+      "notLocal": 0
+    },
+    {
+      "domain": "Example.co.uk",
+      "status": "ACTIVE",
+      "tld": "co.uk",
+      "createDate": "2022-03-01 10:00:00",
+      "expireDate": "2027-03-01 10:00:00",
+      "securityLock": 1,
+      "whoisPrivacy": 1,
+      "autoRenew": 1,
+      "apiAccess": 1,
+      "notLocal": 0
+    }
+  ],
+  "requestId": "01929d6e-6b1a-7c3e-9a51-0f4f3a2b1c0e"
+}

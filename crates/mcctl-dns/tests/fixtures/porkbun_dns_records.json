@@ -1,0 +1,43 @@
+{
+  "status": "SUCCESS",
+  "cloudflare": "enabled",
+  "records": [
+    {
+      "id": "106926652",
+      "name": "survival.example.com",
+      "type": "A",
+      "content": "198.51.100.4",
+      "ttl": "600",
+      "prio": null,
+      "notes": "managed-by-mcctl"
+    },
+    {
+      "id": "106926659",
+      "name": "www.example.com",
+      "type": "A",
+      "content": "203.0.113.50",
+      "ttl": "600",
+      "prio": "0",
+      "notes": ""
+    },
+    {
+      "id": "106926660",
+      "name": "example.com",
+      "type": "A",
+      "content": "203.0.113.50",
+      "ttl": "600",
+      "prio": null,
+      "notes": null
+    },
+    {
+      "id": "106926661",
+      "name": "example.com",
+      "type": "MX",
+      "content": "mail.example.com",
+      "ttl": "600",
+      "prio": "10",
+      "notes": "managed-by-mcctl"
+    }
+  ],
+  "requestId": "01929d6e-6b1a-7c3e-9a51-0f4f3a2b1c0d"
+}

@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "errors": [],
+  "messages": [],
+  "result": [
+    {
+      "id": "023e105f4ecef8ad9ca31a8372d0c353",
+      "name": "example.com",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": ["ada.ns.cloudflare.com", "bob.ns.cloudflare.com"],
+      "account": { "id": "01a7362d577a6c3019a474fd6f485823", "name": "Example Account" }
+    }
+  ],
+  "result_info": {
+    "page": 1,
+    "per_page": 20,
+    "count": 1,
+    "total_count": 1,
+    "total_pages": 1
+  }
+}
